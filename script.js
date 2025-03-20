@@ -16,12 +16,19 @@ const saveNote = (note) => {
     const data =[];
 
     notes.forEach((note, index) => {
-        data.push({
-            title: title[index].value,
-            text: note.value
+        data.push({title: title[index].value, text: note.value});
         });
-    });
-}
+    const titlesData = data.map((note) => note.title);
+    console.log(titlesData);
+    localStorage.setItem(
+        'titles', JSON.stringify(titlesData)
+    );
+
+    const textData = data.map((item) => item.text);
+    localStorage.setItem(
+        "notes", JSON.stringify(textData)
+    );
+};
 
 addNote = (text = "", title = "") => {
     const note = document.createElement('div');
