@@ -1,0 +1,18 @@
+* {
+    background-color: #c3d729;
+    font-family: Cambria, Cochin;
+    margin: 0;
+    padding: 0;
+}
+
+.h1 {
+    padding: 10px;
+    margin: 200px;
+    align-content: center;
+    justify-content: center;
+}
+#add {
+    font-size: 24px;
+    padding: 0.5px;
+    /* border-radius: 10px; */
+}
