@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: rgb(188, 242, 101); */
 }
 
 /* .h1 {
@@ -26,7 +27,7 @@
     position: fixed;
     margin-top: 46px;
     /* left: 50%; */
-    color: rgb(48, 22, 243);
+    color: rgb(16, 16, 16);
 }
 .btn {
     display: flex;
