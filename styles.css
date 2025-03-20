@@ -59,7 +59,7 @@
     width: 100%;
     background-color: #0d7390;
     color: white;
-    padding: 5px;
+    padding: 30px;
     display: flex;
     justify-content: start;
     border-radius: 10px 10px 0px 0px;
@@ -77,9 +77,9 @@
     resize: none;
     padding: 10px;
     font-size: 18px;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: rgb(236, 236, 92);
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .title-div textarea {
