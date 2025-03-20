@@ -48,7 +48,7 @@
 .note {
     width: 380px;
     height: 260px;
-    background-color: white;
+    background-color: rgb(246, 164, 164);
     margin: 15px;
     margin-top: 55px;
     border-radius: 10px;
@@ -78,7 +78,7 @@
     padding: 10px;
     font-size: 18px;
     border-radius: 15px;
-    background-color: beige;
+    background-color: rgb(236, 236, 92);
     border-radius: 0px 0px 10px 10px;
 }
 
