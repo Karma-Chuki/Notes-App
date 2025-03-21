@@ -61,7 +61,8 @@
     color: white;
     padding: 30px;
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
+    font-size: x-large;
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -70,6 +71,10 @@
     cursor: pointer;
 }
 
+.notes span {
+    margin-left: 8px;
+    display: inline-flex;
+}
 .note textarea {
     border: none;
     width: 100%;

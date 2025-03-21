@@ -25,8 +25,12 @@ addNote = (text = "", title = "") => {
     note.classList.add('note');
     note.innerHTML = `
         <div class="notes">
-            <i class = "far fa-save" style="color:yellow"></i>
-            <i class = "fas fa-trash-alt" style="color:red"></i>
+            <span>
+                <i class = "far fa-save" style="color:yellow"></i>
+            </span>
+            <span>
+                <i class = "fas fa-trash-alt" style="color:red"></i>
+            </span>
         </div>
         <div class="title-div">
             <textarea class ="title" placeholder="write the title">${title}</textarea>
