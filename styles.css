@@ -15,7 +15,7 @@
     position: fixed;
     left: 18px;
     top: 10px;
-    background-color: #2d3436;
+    background-color: #255c69;
     color: white;
     padding: 10px;;
     border: 0;
@@ -27,7 +27,7 @@
     position: fixed;
     margin-top: 46px;
     /* left: 50%; */
-    color: rgb(16, 16, 16);
+    color: rgb(51, 29, 29);
 }
 .btn {
     display: flex;
@@ -48,7 +48,7 @@
 .note {
     width: 380px;
     height: 260px;
-    background-color: rgb(246, 164, 164);
+    background-color: rgb(246, 197, 164);
     margin: 15px;
     margin-top: 55px;
     border-radius: 10px;
@@ -80,6 +80,7 @@
     border-radius: 5px;
     background-color: rgb(236, 236, 92);
     border-radius: 0px 0px 5px 5px;
+    /* color: blue; */
 }
 
 .title-div textarea {
