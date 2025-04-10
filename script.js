@@ -2,7 +2,7 @@ const addbtn = document.querySelector('#add');
 const main = document.querySelector('#main');
 
 addbtn.addEventListener('click', function(){
-    alert('Button clicked!');
+    // alert('Button clicked!');
     addNote();
 });
 
